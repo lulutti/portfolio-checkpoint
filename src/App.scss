@@ -1,0 +1,58 @@
+$blue: #093F73;
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	color: $blue;
+	background: linear-gradient(10deg, #B1B7E0 10.82%, #F5D3D1 42%, #F5D4D2 58.18%, #FFF3EA 97.62%);
+}
+
+.card {
+	width: 80%;
+	background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%, rgba(255, 255, 255, 0.06) 100%);
+	backdrop-filter: blur(21px);
+	font-size: 2.4rem;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 9.6rem;
+}
+
+a {
+	font-size: 1.6rem;
+	color: #093F73;
+	font-weight: 600;
+	
+	
+}
+
+img:hover{
+	filter: brightness(1.2);
+}
+
+a:hover{
+	color: #B1B7E0;
+}
+
+.projetos {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	gap: 4.8rem;
+}
